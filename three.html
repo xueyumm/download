@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no,minimum-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <title>百事通下载进度</title>
+</head>
+<body>
+<div class="head">
+    <ul>
+        <li class="head_left">
+            <span><a href="two.html">&lt;</a></span>
+        </li>
+        <li class="head_middle">
+            <span>号码识别设置</span>
+        </li>
+    </ul>
+</div>
+<div class="header">
+    <div class="header_img">
+        <img src="images/bg_gengxin@2x.png">
+    </div>
+</div>
+<div class="downloud3">
+    <span class="loud_bai">0%</span>
+    <p class="loud_txt">正在下载号码识别基础数据包</p>
+    <div class="loud_go"><span class="green"></span></div>
+</div>
+<div class="foot">
+    <img src="images/foot01.jpg" >
+</div>
+
+<script>
+    onload=function(){
+        var num;
+        var i=0;
+        var time;
+     var down=function(){
+         i++;
+         $(".green").css("width",i+'%');
+         $(".downloud3>span").text(i+'%');
+         time=setTimeout(down,200);
+         if(i>=99){
+             down='';
+             $(".downloud3 p").text('数据包下载成功');
+         };
+     };
+     down();
+    }
+</script>
+</body>
+</html>

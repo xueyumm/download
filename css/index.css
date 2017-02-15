@@ -1,0 +1,352 @@
+/*第一个页面*/
+*{
+    padding:0;
+    margin:0;
+}
+html{
+    font-size: 87.5%;
+}
+.head{
+    width:100%;
+    height:6.929rem;
+    background: #f7f7f7;
+}
+.head ul li{
+    list-style: none;
+    float:left;
+}
+.head_left{
+    width:20%;
+    height:6.929rem;
+    line-height: 6.929rem;
+    text-align: center;
+    font-size:2.143rem;
+    font-weight: 600;
+}
+.head_left span a{
+    text-decoration: none;
+    color: #000;
+}
+.head_middle{
+    width:60%;
+    height:6.929rem;
+    font-size:1.714rem;
+    font-weight: 700;
+    text-align: center;
+    line-height: 6.929rem;
+}
+.head_right{
+    width:20%;
+    height:6.929rem;
+    font-size:1.429rem;
+    text-align: center;
+    line-height: 6.929rem;
+}
+.content{
+    width:100%;
+    height:40.643rem;
+    background: #298cff;
+    overflow: hidden;
+}
+.content_img{
+    width:27.571rem;
+    height:28.571rem;
+    margin:0 auto;
+}
+.content_img img{
+    padding-top:3.125rem;
+}
+.content_download{
+    width:100%;
+    height:7.142rem;
+}
+.download{
+    width:32.857rem;
+    height:6.286rem;
+    border:1px solid #81bfff;
+    background: #62b0ff;
+    border-radius: 6.286rem;
+    margin:0 auto;
+    line-height: 6.286rem;
+    text-align: center;
+    font-size: 2rem;
+}
+.download span a{
+    text-decoration: none;
+    color: #fff;
+}
+.content_time{
+    width:100%;
+    height:2.071rem;
+}
+.content_time span{
+    display: block;
+    width:18.571rem;
+    height:2.071rem;
+    margin:0 auto;
+    color: #8fccff;
+    font-size: 1.571rem;
+}
+.content_write{
+    width:100%;
+    height:40.571rem;
+}
+.write_one{
+    width:100%;
+    height:7.286rem;
+    border-bottom:0.1rem solid #dcdcdc;
+}
+.write_one_l{
+    width:10rem;
+    height:7.286rem;
+    float: left;
+}
+.write_one_l ul li{
+    float: left;
+    list-style: none;
+    width:2.857rem;
+    height:7.286rem;
+    line-height:7.286rem;
+    text-align: center;
+    color: #222;
+}
+.write_one_l ul li img{
+    margin-top: 2.357rem;
+}
+.write_one_l ul li.one_text{
+    width:7.143rem;
+    height:7.286rem;
+    line-height:7.286rem;
+    text-align: center;
+    font-size: 1.286rem;
+}
+.write_one_r{
+    width:7.813rem;
+    height:7.286rem;
+    float: right;
+}
+.write_one_r ul li{
+    float: left;
+    list-style: none;
+    width:3.571rem;
+    height:7.286rem;
+    line-height:7.286rem;
+    text-align: center;
+}
+.write_one_r ul li.r_one{
+    width:4.857rem;
+    height:7.286rem;
+}
+.write_one_r ul li.r_two{
+    width:2.286rem;
+    height:7.286rem;
+    font-size: 1.714rem;
+}
+.write_one_r ul li p.one_new{
+    display: inline-block;
+    width:4.857rem;
+    height:2rem;
+    border:1px solid #ef4e4e;
+    border-radius: 1.857rem;
+    text-align: center;
+    line-height:1.857rem;
+    font-size: 1.286rem;
+}
+.write_one_r ul li p.one_new a{
+    text-decoration: none;
+    color: #ef4e4e;
+}
+.write_two{
+    width:100%;
+    height:7.286rem;
+    border-bottom:1px solid #dcdcdc;
+}
+.write_two_l{
+    width:13.571rem;
+    height:7.286rem;
+    float: left;
+}
+.write_two_l ul li{
+    float: left;
+    list-style: none;
+    width:2.857rem;
+    height:7.286rem;
+    line-height:7.286rem;
+    text-align: center;
+}
+.write_two_l ul li img{
+    margin-top: 2.357rem;
+}
+.write_two_l ul li.two_text{
+    width:10.714rem;
+    height:7.286rem;
+    line-height:7.286rem;
+    text-align: center;
+    font-size: 1.286rem;
+}
+.write_two_r{
+    width:7rem;
+    height:7.286rem;
+    float: right;
+}
+.write_two_r p{
+    width:4.571rem;
+    height:2.143rem;
+    background:#c6c5c5;
+    border:1px solid #c6c5c5;
+    border-radius: 2rem;
+    margin:2.5rem auto;
+    position: relative;
+}
+.write_two_r p span {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 2.857rem;
+    position: absolute;
+    top:-4px;
+    left:-1px;
+    transition-duration:1s;
+    -moz-transition-duration:1s;
+    -o-transition-duration:1s;
+    -webkit-transition-duration:1s;
+}
+/*第二个页面*/
+.write_three_r{
+    width:8rem;
+    height:7.286rem;
+    float: right;
+}
+.write_three_r p{
+    width:4.571rem;
+    height:2.143rem;
+    background:#92d2ff;
+    border:1px solid #92d2ff;
+    border-radius: 2.143rem;
+    margin:2.5rem auto;
+    position: relative;
+}
+.write_three_r p span {
+    display: inline-block;
+    width: 2.5rem;
+    height: 2.5rem;
+    background:#26a5ff;
+    border: 1px solid transparent;
+    border-radius: 2.857rem;
+    position: absolute;
+    top:-4px;
+    left:2.143rem;
+    transition-duration:1s;
+    -moz-transition-duration:1s;
+    -o-transition-duration:1s;
+    -webkit-transition-duration:1s;
+}
+.download2{
+    width:28.750rem;
+    height:5.5rem;
+    border:0.143rem solid transparent;
+    background: #1987f7;
+    border-radius: 3.571rem;
+    margin:0 auto;
+    line-height: 6.214rem;
+    text-align: center;
+    color: #d3e8fd;
+    font-size: 1.714rem;
+}
+/*第三个页面*/
+.header{
+    width:100%;
+    height:38.143rem;
+}
+.header_img{
+    /*width:80%;*/
+    /*height:38.143rem;*/
+    width:22.714rem;
+    height:38.143rem;
+    margin:0 auto;
+}
+.header_img img{
+    /*width:100%;*/
+    /*height:21rem;*/
+    width:22.714rem;
+    height:21rem;
+    margin-top:8.571rem;
+}
+.downloud3{
+    width:100%;
+    height:25.571rem;
+}
+.downloud3 .loud_bai{
+    display: block;
+    width:3.143rem;
+    height:1.714rem;
+    margin:0 auto;
+    color: #222;
+    font-size: 1.571rem;
+    font-weight: 600;
+}
+.downloud3 .loud_txt{
+    width:20.714rem;
+    height:2.143rem;
+    text-align: center;
+    margin:0 auto;
+    color: #858585;
+    font-size: 1.571rem;
+    margin-top: 1.429rem;
+}
+.downloud3 .loud_go{
+    width:34.286rem;
+    height:1.429rem;
+    border-radius: 1rem;
+    background: #ecf0f3;
+    margin:0 auto;
+    margin-top: 2.857rem;
+}
+.downloud3 .loud_go span{
+    display: inline-block;
+    width:0%;
+    height:1.429rem;
+    border-radius: 1rem;
+    background: #7ed321;
+}
+.foot{
+    width:100%;
+    height:2.857rem;
+    background: #282828;
+}
+.foot img{
+    margin-left: 1rem;
+}
+
+
+
+/*媒体查询*/
+@media (max-width: 26.286rem){
+    .download {
+        width: 22.143rem;
+        height: 4.857rem;
+        line-height: 4.857rem;
+    }
+    .download2 {
+        width: 22.143rem;
+        height: 4.857rem;
+        line-height: 4.857rem;
+    }
+    .downloud3 .loud_go {
+        width: 22.143rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
